@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Heartbeat.model">
+	<insert id="h_insert" parameterType="test.com.fitMe.Heartbeat.model.HeartbeatVO">
+		insert into HEARTBEAT(num,wdate,max,min,user_id)	values(SEQ_HEARTBEAT.nextval,#{wdate, jdbcType=VARCHAR},#{max},#{min},#{user_id, jdbcType=VARCHAR})
+	</insert>
+
+
+	<select id="h_selectAll" resultType="test.com.fitMe.Heartbeat.model.HeartbeatVO">
+		select * from HEARTBEAT order by user_id desc
+	</select>
+
+
+	
+</mapper>

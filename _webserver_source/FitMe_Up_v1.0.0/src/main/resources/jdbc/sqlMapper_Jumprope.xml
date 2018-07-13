@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Jumprope.model">
+	<insert id="j_insert" parameterType="test.com.fitMe.Jumprope.model.JumpropeVO">
+		insert into JUMPROPE(num,wdate,count,kcal,user_id) values(SEQ_JUMPROPE.nextval,#{wdate},#{count},#{kcal},#{user_id})
+	</insert>
+
+<update id="j_update" parameterType="test.com.fitMe.Jumprope.model.JumpropeVO">
+		update JUMPROPE set
+		count=count+#{count},kcal=kcal+#{kcal} where user_id=#{user_id} and
+		wdate=#{wdate}
+	</update>
+
+	<select id="j_selectAll" resultType="test.com.fitMe.Jumprope.model.JumpropeVO">
+		select * from JUMPROPE order by user_id desc
+	</select>
+
+	<select id="j_selectOne" parameterType="test.com.fitMe.Jumprope.model.JumpropeVO" resultType="java.lang.Integer">
+		select count(*) from JUMPROPE where user_id=#{user_id} and wdate=#{wdate}
+	</select>
+	
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Walk.model">
+	<insert id="w_insert" parameterType="test.com.fitMe.Walk.model.WalkVO">
+		insert into WALK(num,wdate,count,dist,kcal,user_id) values(SEQ_WALK.nextval,#{wdate},#{count},#{dist},#{kcal},#{user_id})
+	</insert>
+	
+	<update id="w_update" parameterType="test.com.fitMe.Walk.model.WalkVO">
+		update WALK set dist=dist+#{dist},count=count+#{count},kcal=kcal+#{kcal} where user_id=#{user_id} and wdate=#{wdate}
+	</update>
+
+	<select id="w_selectAll" resultType="test.com.fitMe.Walk.model.WalkVO">
+		select * from WALK order by user_id desc
+	</select>
+
+	<select id="w_selectOne" parameterType="test.com.fitMe.Walk.model.WalkVO" resultType="java.lang.Integer">
+		select count(*) from WALK where user_id=#{user_id} and wdate=#{wdate}
+	</select>
+	
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Register.model">
+	<insert id="register_insert" parameterType="test.com.fitMe.Register.model.RegisterVO">
+		insert into register(num,user_id,serial_num,register_date)
+		values(SEQ_REGISTER.nextval,#{user_id},#{serial_num},sysdate)
+	</insert>
+	
+
+
+	<delete id="register_delete" parameterType="test.com.fitMe.Register.model.RegisterVO">
+		delete from register where serial_num=#{serial_num}
+	</delete>
+
+	<select id="register_selectAll" resultType="test.com.fitMe.Register.model.RegisterVO">
+		select * from register order by user_id desc
+	</select>
+	
+	<select id="register_selectOne" parameterType="test.com.fitMe.Register.model.RegisterVO" resultType="java.lang.Integer">
+		select count(*) from product where serial_num=#{serial_num}
+	</select>
+	
+
+
+	
+</mapper>

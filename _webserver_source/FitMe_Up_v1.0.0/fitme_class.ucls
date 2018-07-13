@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="test.com.fitMe" project="FitMe_Up" file="/FitMe_Up/src/main/java/test/com/fitMe" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="102" y="6236"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="test.com.fitMe.BarbellController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/BarbellController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="97" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="3" language="java" name="test.com.fitMe.Barbell.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="514" y="42"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="test.com.fitMe.Barbell.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="302" y="48"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="test.com.fitMe.Barbell.model.BarbellDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/model/BarbellDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="503" y="174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="test.com.fitMe.Barbell.model.BarbellDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/model/BarbellDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="508" y="384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="test.com.fitMe.Barbell.model.BarbellVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/model/BarbellVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="686" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="test.com.fitMe.Barbell.service.BarbellDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/service/BarbellDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="294" y="396"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="test.com.fitMe.Barbell.service.BarbellDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Barbell/service/BarbellDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="296" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="test.com.fitMe.DumbbellController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/DumbbellController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="100" y="660"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="11" language="java" name="test.com.fitMe.Dumbbell.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="558" y="530"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="12" language="java" name="test.com.fitMe.Dumbbell.model.DumbbellDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/model/DumbbellDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="553" y="689"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="test.com.fitMe.Dumbbell.model.DumbbellDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/model/DumbbellDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="549" y="916"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="test.com.fitMe.Dumbbell.model.DumbbellVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/model/DumbbellVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="752" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="15" language="java" name="test.com.fitMe.Dumbbell.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="206" x="201" y="504"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="16" language="java" name="test.com.fitMe.Dumbbell.service.DumbbellDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/service/DumbbellDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="168" x="240" y="832"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="test.com.fitMe.Dumbbell.service.DumbbellDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Dumbbell/service/DumbbellDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="169" x="240" y="603"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="test.com.fitMe.HeartbeatController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/HeartbeatController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="102" y="1168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="19" language="java" name="test.com.fitMe.Heartbeat.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="1050"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="20" language="java" name="test.com.fitMe.Heartbeat.model.HeartbeatDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/model/HeartbeatDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="568" y="1187"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="test.com.fitMe.Heartbeat.model.HeartbeatVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/model/HeartbeatVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="751" y="1256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="test.com.fitMe.Heartbeat.model.HeartbeatDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/model/HeartbeatDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="533" y="1355"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="23" language="java" name="test.com.fitMe.Heartbeat.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="323" y="1050"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="24" language="java" name="test.com.fitMe.Heartbeat.service.HeartbeatDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/service/HeartbeatDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="314" y="1324"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="test.com.fitMe.Heartbeat.service.HeartbeatDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Heartbeat/service/HeartbeatDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="314" y="1167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="test.com.fitMe.JumpropeController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/JumpropeController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="138" y="1607"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="27" language="java" name="test.com.fitMe.Jumprope.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="204" x="493" y="1457"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="28" language="java" name="test.com.fitMe.Jumprope.model.JumpropeVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/model/JumpropeVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="770" y="1693"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="test.com.fitMe.Jumprope.model.JumpropeDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/model/JumpropeDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="589" y="1626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="test.com.fitMe.Jumprope.model.JumpropeDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/model/JumpropeDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="563" y="1847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="31" language="java" name="test.com.fitMe.Jumprope.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="352" y="1485"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="32" language="java" name="test.com.fitMe.Jumprope.service.JumpropeDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/service/JumpropeDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="332" y="1822"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="33" language="java" name="test.com.fitMe.Jumprope.service.JumpropeDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Jumprope/service/JumpropeDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="334" y="1611"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="test.com.fitMe.ProductController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/ProductController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="186" y="2162"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="35" language="java" name="test.com.fitMe.Product.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="664" y="2007"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="36" language="java" name="test.com.fitMe.Product.model.ProductVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/model/ProductVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="868" y="2200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="test.com.fitMe.Product.model.ProductDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/model/ProductDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="637" y="2386"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="38" language="java" name="test.com.fitMe.Product.model.ProductDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/model/ProductDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="669" y="2155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="39" language="java" name="test.com.fitMe.Product.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="449" y="2007"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="40" language="java" name="test.com.fitMe.Product.service.ProductDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/service/ProductDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="410" y="2384"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="41" language="java" name="test.com.fitMe.Product.service.ProductDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Product/service/ProductDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="459" y="2135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="test.com.fitMe.RegisterController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/RegisterController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="160" y="2654"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="43" language="java" name="test.com.fitMe.Register.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="668" y="2521"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="44" language="java" name="test.com.fitMe.Register.model.RegisterDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/model/RegisterDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="629" y="2843"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="test.com.fitMe.Register.model.RegisterVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/model/RegisterVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="854" y="2709"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="test.com.fitMe.Register.model.RegisterDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/model/RegisterDAOImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="643" y="2656"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="47" language="java" name="test.com.fitMe.Register.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="404" y="2521"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="48" language="java" name="test.com.fitMe.Register.service.RegisterDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/service/RegisterDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="400" y="2822"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="49" language="java" name="test.com.fitMe.Register.service.RegisterDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Register/service/RegisterDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="400" y="2638"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="test.com.fitMe.RunController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/RunController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="120" y="3104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="51" language="java" name="test.com.fitMe.Run.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="501" y="2994"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="52" language="java" name="test.com.fitMe.Run.model.RunDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/model/RunDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="3349"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="53" language="java" name="test.com.fitMe.Run.model.RunVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/model/RunVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="651" y="3226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="test.com.fitMe.Run.model.RunDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/model/RunDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="494" y="3140"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="55" language="java" name="test.com.fitMe.Run.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="310" y="2982"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="56" language="java" name="test.com.fitMe.Run.service.RunDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/service/RunDAOService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="295" y="3335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="57" language="java" name="test.com.fitMe.Run.service.RunDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Run/service/RunDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="295" y="3124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="test.com.fitMe.SitupController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/SitupController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="115" y="3609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="59" language="java" name="test.com.fitMe.Situp.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="497" y="3488"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="60" language="java" name="test.com.fitMe.Situp.model.SitupDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/model/SitupDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="487" y="3843"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="61" language="java" name="test.com.fitMe.Situp.model.SitupVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/model/SitupVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="658" y="3705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="test.com.fitMe.Situp.model.SitupDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/model/SitupDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="491" y="3634"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="63" language="java" name="test.com.fitMe.Situp.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="299" y="3496"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="64" language="java" name="test.com.fitMe.Situp.service.SitupDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/service/SitupDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="252" y="3831"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="65" language="java" name="test.com.fitMe.Situp.service.SitupDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Situp/service/SitupDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="290" y="3630"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="test.com.fitMe.SleepController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/SleepController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="125" y="4102"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="67" language="java" name="test.com.fitMe.Sleep.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="535" y="3984"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="68" language="java" name="test.com.fitMe.Sleep.model.SleepVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/model/SleepVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="680" y="4168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="test.com.fitMe.Sleep.model.SleepDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/model/SleepDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="524" y="4095"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="70" language="java" name="test.com.fitMe.Sleep.model.SleepDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/model/SleepDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="518" y="4277"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="71" language="java" name="test.com.fitMe.Sleep.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="332" y="3985"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="72" language="java" name="test.com.fitMe.Sleep.service.SleepDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/service/SleepDAOService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="310" y="4229"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="73" language="java" name="test.com.fitMe.Sleep.service.SleepDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Sleep/service/SleepDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="315" y="4080"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="test.com.fitMe.UserController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/UserController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="743" y="4737"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="75" language="java" name="test.com.fitMe.User.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="995" y="4432"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="76" language="java" name="test.com.fitMe.User.service.UserDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/service/UserDAOService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="992" y="4562"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="77" language="java" name="test.com.fitMe.User.service.UserDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/service/UserDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="992" y="4774"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="78" language="java" name="test.com.fitMe.User.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1377" y="4434"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="79" language="java" name="test.com.fitMe.User.model.UserVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/model/UserVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1394" y="4778"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="80" language="java" name="test.com.fitMe.User.model.UserDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/model/UserDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1205" y="4885"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="81" language="java" name="test.com.fitMe.User.model.UserDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/User/model/UserDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1226" y="4596"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="test.com.fitMe.WalkController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/WalkController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="133" y="6353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="test.com.fitMe.Walk.service.WalkDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/service/WalkDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="315" y="6349"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="84" language="java" name="test.com.fitMe.Walk.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="326" y="6217"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="85" language="java" name="test.com.fitMe.Walk.service.WalkDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/service/WalkDAOService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="286" y="6547"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="86" language="java" name="test.com.fitMe.Walk.model.WalkDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/model/WalkDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="496" y="6571"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="87" language="java" name="test.com.fitMe.Walk.model.WalkVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/model/WalkVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="684" y="6436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="88" language="java" name="test.com.fitMe.Walk.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="518" y="6218"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="89" language="java" name="test.com.fitMe.Walk.model.WalkDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/Walk/model/WalkDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="514" y="6359"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="90" language="java" name="test.com.fitMe.data.service" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="182" y="4451"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="91" language="java" name="test.com.fitMe.data.service.DataDAOService" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/service/DataDAOService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="432" y="4559"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="92" language="java" name="test.com.fitMe.data.service.DataDAOServiceImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/service/DataDAOServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="177" y="4617"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="93" language="java" name="test.com.fitMe.data.model" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="293" y="5018"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="94" language="java" name="test.com.fitMe.data.model.DataDAO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/model/DataDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="138" y="4875"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="95" language="java" name="test.com.fitMe.data.model.DataVO" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/model/DataVO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="470" y="5169"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="96" language="java" name="test.com.fitMe.data.model.DataDAOImpl" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/data/model/DataDAOImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="256" y="5208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="97" language="java" name="test.com.fitMe.MaxSports" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/DataController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="626" y="5078"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="98" language="java" name="test.com.fitMe.DataController" project="FitMe_Up" 
+    file="/FitMe_Up/src/main/java/test/com/fitMe/DataController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="417" y="4823"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="99">    
+    <end type="SOURCE" refId="92"/>    
+    <end type="TARGET" refId="91"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="86"/>  
+  </realization>  
+  <association id="101">    
+    <end type="SOURCE" refId="98" navigable="false">      
+      <attribute id="102" name="dts"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="105" name="dao"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="108" name="dao"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="111" name="dao"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="113">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <association id="114">    
+    <end type="SOURCE" refId="77" navigable="false">      
+      <attribute id="115" name="dao"/>      
+      <multiplicity id="116" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="80" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="117">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="118" name="dao"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="86" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="120">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="121">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="122" name="dao"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="125" name="rgs"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="127">    
+    <end type="SOURCE" refId="98" navigable="false">      
+      <attribute id="128" name="max"/>      
+      <multiplicity id="129" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="97" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="130">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="131">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="132" name="dao"/>      
+      <multiplicity id="133" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="134">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="70"/>  
+  </realization>  
+  <realization id="135">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="136">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <realization id="137">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="56"/>  
+  </realization>  
+  <realization id="138">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="64"/>  
+  </realization>  
+  <association id="139">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="140" name="hs"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="142">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <association id="143">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="144" name="ds"/>      
+      <multiplicity id="145" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="146">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="147" name="sts"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="64" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="149">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="72"/>  
+  </realization>  
+  <association id="150">    
+    <end type="SOURCE" refId="50" navigable="false">      
+      <attribute id="151" name="rs"/>      
+      <multiplicity id="152" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="56" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="153">    
+    <end type="SOURCE" refId="73" navigable="false">      
+      <attribute id="154" name="dao"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="70" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="156">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="157">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="158" name="dao"/>      
+      <multiplicity id="159" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="161" name="dao"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="163">    
+    <end type="SOURCE" refId="65" navigable="false">      
+      <attribute id="164" name="dao"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="166">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <realization id="167">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="168">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <realization id="169">    
+    <end type="SOURCE" refId="83"/>    
+    <end type="TARGET" refId="85"/>  
+  </realization>  
+  <association id="170">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="171" name="js"/>      
+      <multiplicity id="172" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="173">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="174" name="bs"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="74" navigable="false">      
+      <attribute id="177" name="dts"/>      
+      <multiplicity id="178" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="91" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="179">    
+    <end type="SOURCE" refId="81"/>    
+    <end type="TARGET" refId="80"/>  
+  </realization>  
+  <association id="180">    
+    <end type="SOURCE" refId="92" navigable="false">      
+      <attribute id="181" name="dao"/>      
+      <multiplicity id="182" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="94" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="183">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <association id="184">    
+    <end type="SOURCE" refId="74" navigable="false">      
+      <attribute id="185" name="us"/>      
+      <multiplicity id="186" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="76" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="187">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="188" name="ps"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="190">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="60"/>  
+  </realization>  
+  <association id="191">    
+    <end type="SOURCE" refId="66" navigable="false">      
+      <attribute id="192" name="sls"/>      
+      <multiplicity id="193" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="72" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="194">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="76"/>  
+  </realization>  
+  <realization id="195">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="196">    
+    <end type="SOURCE" refId="96"/>    
+    <end type="TARGET" refId="94"/>  
+  </realization>  
+  <realization id="197">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="198">    
+    <end type="SOURCE" refId="82" navigable="false">      
+      <attribute id="199" name="ws"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="85" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

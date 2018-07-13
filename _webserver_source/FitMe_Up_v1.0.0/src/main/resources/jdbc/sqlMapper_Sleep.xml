@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Sleep.model">
+	<insert id="sl_insert" parameterType="test.com.fitMe.Sleep.model.SleepVO">
+		insert into
+		Sleep(num,wdate,value,user_id)
+		values(seq_sleep.nextval,#{wdate},#{value},#{user_id})
+	</insert>
+
+
+
+
+	<select id="sl_selectAll" resultType="test.com.fitMe.Sleep.model.SleepVO">
+		select * from Sleep order
+		by num desc
+	</select>
+
+	<select id="sl_selectOne" resultType="test.com.fitMe.Sleep.model.SleepVO">
+		select * from Sleep where
+		num=#{num}
+	</select>
+
+
+</mapper>

@@ -1,0 +1,219 @@
+
+		insert into BARBEL(num,wdate,count,user_id) values(SEQ_BARBEL.nextval,#{wdate, jdbcType=VARCHAR},#{count},#{user_id,jdbcType=VARCHAR})
+
+		update BARBEL set count=count+#{count} where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate, jdbcType=VARCHAR}
+
+		select *from BARBEL order by num desc
+
+		select count(*) from BARBEL where user_id=#{user_id,jdbcType=VARCHAR} and wdate=#{wdate}
+
+insert into DUMBBELL(num,wdate,count,user_id) values(SEQ_DUMBBEL.nextval,#{wdate, jdbcType=VARCHAR},#{count},#{user_id, jdbcType=VARCHAR})
+
+	update DUMBBELL set count=count+#{count} where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate, jdbcType=VARCHAR}
+
+select * from DUMBBELL order by num desc
+
+select count(*) from DUMBBELL where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate}
+
+
+	select * from HEARTBEAT order by user_id desc
+
+insert into JUMPROPE(num,wdate,count,kcal,user_id) values(SEQ_JUMPROPE.nextval,#{wdate},#{count},#{kcal},#{user_id})
+
+update JUMPROPE set
+		count=count+#{count},kcal=kcal+#{kcal} where user_id=#{user_id} and
+		wdate=#{wdate}
+
+	select * from JUMPROPE order by user_id desc
+
+select count(*) from JUMPROPE where user_id=#{user_id} and wdate=#{wdate}
+
+
+insert into product(serial_num,name,manufacture_date,price)
+		values(#{serial_num},#{name},#{manufacture_date},#{price})
+
+update product set manufacture_date=#{manufacture_date},name=#{name},price=#{price} where serial_num=#{serial_num}
+
+delete from product where serial_num=#{serial_num}
+
+	select * from product order by serial_num desc
+
+select * from product where serial_num=#{serial_num}
+
+insert into register(num,user_id,serial_num,register_date)
+		values(SEQ_REGISTER.nextval,#{user_id},#{serial_num},sysdate)
+
+delete from register where serial_num=#{serial_num}
+
+select * from register order by user_id desc
+
+select count(*) from product where serial_num=#{serial_num}
+
+insert into RUN(num,wdate,count,dist,kcal,user_id) values(SEQ_RUN.nextval,#{wdate},#{count},#{dist},#{kcal},#{user_id})
+
+	select * from RUN order by user_id desc
+
+select count(*) from RUN where user_id=#{user_id} and wdate=#{wdate}
+
+	select * from SITUP order by user_id desc
+
+
+insert into SITUP(num,wdate,count,kcal,user_id)	values(SEQ_SITUP.nextval,#{wdate, jdbcType=VARCHAR},#{count},#{kcal},#{user_id, jdbcType=VARCHAR})
+
+select * from SITUP order by user_id desc
+
+select count(*) from SITUP where user_id=#{user_id} and wdate=#{wdate}
+
+insert into HEARTBEAT(num,wdate,max,min,user_id) values(SEQ_HEARTBEAT.nextval,#{wdate, jdbcType=VARCHAR},#{max},#{min},#{user_id, jdbcType=VARCHAR})
+
+		select * from AVG_VIEW
+
+	insert into
+		Sleep(num,wdate,value,user_id)
+		values(seq_sleep.nextval,#{wdate},#{value},#{user_id})
+
+	select * from Sleep order
+		by num desc
+
+select * from Sleep where
+		num=#{num}
+
+insert into users(u_check,user_id,pw,name,birth,gender,height,weight,tel)
+		values(#{u_check},#{user_id},#{pw},#{name},#{birth},#{gender},#{height},#{weight},#{tel})
+
+update users set pw=#{pw},name=#{name},birth=#{birth},gender=#{gender},height=#{height},weight=#{weight},tel=#{tel} where user_id=#{user_id}
+
+delete from users where user_id=#{user_id}
+
+select * from users where user_id=#{user_id, jdbcType=VARCHAR} and pw=#{pw, jdbcType=VARCHAR}
+
+select count(user_id) from users where user_id=#{user_id, jdbcType=VARCHAR}
+insert into WALK(num,wdate,count,dist,kcal,user_id) values(SEQ_WALK.nextval,#{wdate},#{count},#{dist},#{kcal},#{user_id})
+	update WALK set dist=dist+#{dist},count=count+#{count},kcal=kcal+#{kcal} where user_id=#{user_id} and wdate=#{wdate}
+	select * from WALK order by user_id desc
+	select count(*) from WALK where user_id=#{user_id} and wdate=#{wdate}
+	
+	
+select count(u.user_id)as popular, case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join jumprope j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>
+	
+	<select id="data_barbell_selectAll" resultType="test.com.fitMe.data.model.DataVO">
+select count(u.user_id)as popular,
+	case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join barbel j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>
+
+	<select id="data_dumbbell_selectAll" resultType="test.com.fitMe.data.model.DataVO">
+select count(u.user_id)as popular,
+	case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join dumbbell j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>
+
+	<select id="data_run_selectAll" resultType="test.com.fitMe.data.model.DataVO">
+select count(u.user_id)as popular,
+	case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join run j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>	
+	
+	<select id="data_situp_selectAll" resultType="test.com.fitMe.data.model.DataVO">
+select count(u.user_id)as popular,
+	case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join situp j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>	
+
+	<select id="data_walk_selectAll" resultType="test.com.fitMe.data.model.DataVO">
+select count(u.user_id)as popular,
+	case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60'
+	end as "gen", gender
+	from users u join walk j
+	on u.user_id=j.user_id
+	group by case substr((to_char(sysdate,'yyyy')-substr(BIRTH,1,4)),1,1)
+    when '1' then '10'
+	when '2' then '20'
+	when '3' then '30'
+	when '4' then '40'
+	when '5' then '50'
+	else '60' end, gender
+	</select>	

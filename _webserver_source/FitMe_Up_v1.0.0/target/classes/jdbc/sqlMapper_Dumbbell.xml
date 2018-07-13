@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Dumbbell.model">
+	<insert id="d_insert" parameterType="test.com.fitMe.Dumbbell.model.DumbbellVO">
+		insert into DUMBBELL(num,wdate,count,user_id) values(SEQ_DUMBBEL.nextval,#{wdate, jdbcType=VARCHAR},#{count},#{user_id, jdbcType=VARCHAR})
+	</insert>
+
+<update id="d_update" parameterType="test.com.fitMe.Dumbbell.model.DumbbellVO">
+		update DUMBBELL set count=count+#{count} where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate, jdbcType=VARCHAR}
+	</update>
+
+	<select id="d_selectAll" resultType="test.com.fitMe.Dumbbell.model.DumbbellVO">
+		select * from DUMBBELL order by num desc
+	</select>
+
+	<select id="d_selectOne" parameterType="test.com.fitMe.Dumbbell.model.DumbbellVO" resultType="java.lang.Integer">
+		select count(*) from DUMBBELL where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate}
+	</select>
+	
+</mapper>

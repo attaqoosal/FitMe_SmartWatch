@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Run.model">
+	<insert id="r_insert" parameterType="test.com.fitMe.Run.model.RunVO">
+		insert into RUN(num,wdate,count,dist,kcal,user_id) values(SEQ_RUN.nextval,#{wdate},#{count},#{dist},#{kcal},#{user_id})
+	</insert>
+	
+	<update id="r_update" parameterType="test.com.fitMe.Run.model.RunVO">
+		update RUN set
+		count=count+#{count},dist=dist+#{dist},kcal=kcal+#{kcal} where user_id=#{user_id} and wdate=#{wdate}
+	</update>
+
+	<select id="r_selectAll" resultType="test.com.fitMe.Run.model.RunVO">
+		select * from RUN order by user_id desc
+	</select>
+
+	<select id="r_selectOne" parameterType="test.com.fitMe.Run.model.RunVO" resultType="java.lang.Integer">
+		select count(*) from RUN where user_id=#{user_id} and wdate=#{wdate}
+	</select>
+	
+</mapper>

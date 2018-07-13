@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Product.model">
+	<insert id="product_insert" parameterType="test.com.fitMe.Product.model.ProductVO">
+		insert into product(serial_num,name,manufacture_date,price)
+		values(#{serial_num},#{name},#{manufacture_date},#{price})
+	</insert>
+
+	<update id="product_update" parameterType="test.com.fitMe.Product.model.ProductVO">
+		update product set manufacture_date=#{manufacture_date},name=#{name},price=#{price} where serial_num=#{serial_num}
+	</update>
+
+	<delete id="product_delete" parameterType="test.com.fitMe.Product.model.ProductVO">
+		delete from product where serial_num=#{serial_num}
+	</delete>
+
+	<select id="product_selectAll" resultType="test.com.fitMe.Product.model.ProductVO">
+		select * from product order by serial_num desc
+	</select>
+	
+	<select id="product_selectOne" resultType="test.com.fitMe.Product.model.ProductVO">
+		select * from product where serial_num=#{serial_num}
+	</select>
+
+	
+</mapper>

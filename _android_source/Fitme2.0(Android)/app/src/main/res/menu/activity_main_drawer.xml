@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="none"-->
+        <!--android:id="@+id/menu_bluetooth">-->
+ <!---->
+    <!--</group>-->
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_mode">
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:icon="@mipmap/bluetooth_icon"
+            android:title="블루투스"/>
+        <item
+            android:id="@+id/nav_walk"
+            android:icon="@mipmap/walk_icon"
+            android:title="걷기 모드" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@mipmap/health_icon"
+            android:title="헬스 모드" />
+        <item
+            android:id="@+id/nav_sleep"
+            android:icon="@mipmap/sleep_icon"
+            android:title="수면 모드" />
+        <item
+            android:id="@+id/nav_run"
+            android:icon="@mipmap/run_icon"
+            android:title="달리기 모드" />
+        <item
+            android:id="@+id/nav_heartbeat"
+            android:icon="@mipmap/heartbeat_icon"
+            android:title="심박동 모드" />
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@mipmap/record_icon"
+            android:title="나의 기록" />
+    </group>
+
+    <group android:id="@+id/menu_info"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_goal"
+            android:icon="@mipmap/goal_icon"
+            android:title="목표치" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/info_icon"
+            android:title="회원정보" />
+    </group>
+
+</menu>

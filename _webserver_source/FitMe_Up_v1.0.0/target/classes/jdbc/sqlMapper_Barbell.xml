@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test.com.fitMe.Barbell.model">
+	<insert id="b_insert" parameterType="test.com.fitMe.Barbell.model.BarbellVO">
+		insert into BARBEL(num,wdate,count,user_id)	values(SEQ_BARBEL.nextval,#{wdate, jdbcType=VARCHAR},#{count},#{user_id,jdbcType=VARCHAR})
+	</insert>
+	
+	<update id="b_update" parameterType="test.com.fitMe.Barbell.model.BarbellVO">
+		update BARBEL set count=count+#{count} where user_id=#{user_id, jdbcType=VARCHAR} and wdate=#{wdate, jdbcType=VARCHAR}
+	</update>
+
+	<select id="b_selectAll" resultType="test.com.fitMe.Barbell.model.BarbellVO">
+		select *from BARBEL order by num desc
+	</select>
+
+	<select id="b_selectOne" parameterType="test.com.fitMe.Barbell.model.BarbellVO" resultType="java.lang.Integer">
+		select count(*) from BARBEL where user_id=#{user_id,jdbcType=VARCHAR} and wdate=#{wdate}
+	</select>
+	
+</mapper>
